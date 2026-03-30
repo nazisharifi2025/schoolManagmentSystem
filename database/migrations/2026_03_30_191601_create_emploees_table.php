@@ -16,7 +16,7 @@ return new class extends Migration
             $table->string("firstName");     
             $table->string("LastName");     
             $table->string("tazkera")->unique();
-            
+            $table->enum("gender",["male","female"])->default("male");
             $table->string("email")->unique();
             $table->string("phone")->nullable();
             $table->foreignId("designation_id")->constrained("designations")->cascadeOnDelete();
