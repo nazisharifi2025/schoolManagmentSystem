@@ -15,8 +15,11 @@ return new class extends Migration
             $table->id();
             $table->string("firstName");     
             $table->string("LastName");     
+            $table->string("tazkera")->unique();
+            
             $table->string("email")->unique();
             $table->string("phone")->nullable();
+            $table->foreignId("designation_id")->constrained("designations")->cascadeOnDelete();
             $table->timestamps();
         });
     }
