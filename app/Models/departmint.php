@@ -6,5 +6,8 @@ use Illuminate\Database\Eloquent\Model;
 
 class departmint extends Model
 {
-    //
+    protected $fillable = [
+        "name",
+        "school_id"
+    ];
 }
