@@ -17,7 +17,7 @@ return new class extends Migration
             $table->foreignId("employee_id")->constrained("emploees")->cascadeOnDelete();
             $table->date("start_date");
             $table->date("end_date");
-            $table->string("hire_type");
+            $table->enum("hire_type" , ["monthly" , "daily","yearly","hourly"])->default("monthly");
             $table->timestamps();
         });
     }
