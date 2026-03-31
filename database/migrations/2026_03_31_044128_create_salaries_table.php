@@ -15,6 +15,7 @@ return new class extends Migration
             $table->id();
             $table->integer("gross_salarai");
             $table->foreignId("emploee_id")->constrained("emploees")->cascadeOnDelete();
+            $table->foreignId("payroll_id")->constrained("payrolls")->cascadeOnDelete();
             $table->timestamps();
         });
     }
