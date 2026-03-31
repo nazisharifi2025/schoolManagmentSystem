@@ -6,5 +6,11 @@ use Illuminate\Database\Eloquent\Model;
 
 class Contract extends Model
 {
-    //
+    protected $fillable = [
+        "start_date",
+        "end_date",
+        "emploee_id",
+        "designation_id",
+        "hire_type"
+    ];
 }
