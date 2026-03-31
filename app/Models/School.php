@@ -10,4 +10,7 @@ class School extends Model
         "name",
         "whatsapp-link",
     ];
+    public function user(){
+        return $this->hasMany(users::class , "users");
+    }
 }
