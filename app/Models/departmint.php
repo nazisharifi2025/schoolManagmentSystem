@@ -10,4 +10,7 @@ class departmint extends Model
         "name",
         "school_id"
     ];
+    public function desicnations(){
+        return $this->hasMany(Designation::class);
+    }
 }
