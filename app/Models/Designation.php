@@ -10,4 +10,7 @@ class Designation extends Model
         "name",
         "department_id"
     ];
+    public function departmint(){
+        return $this->belongsTo(departmint::class);
+    }
 }
