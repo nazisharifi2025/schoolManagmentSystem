@@ -11,6 +11,6 @@ class School extends Model
         "whatsapp-link",
     ];
     public function user(){
-        return $this->hasMany(users::class , "users");
+        return $this->belongsTo(User::class , "users");
     }
 }
