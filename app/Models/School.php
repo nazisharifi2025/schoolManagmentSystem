@@ -13,4 +13,7 @@ class School extends Model
     public function user(){
         return $this->belongsTo(User::class , "users");
     }
+    public function departmint(){
+        return $this->hasMany(departmint::class);
+    }
 }
