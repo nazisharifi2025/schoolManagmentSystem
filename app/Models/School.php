@@ -16,4 +16,7 @@ class School extends Model
     public function departmint(){
         return $this->hasMany(departmint::class);
     }
+    public function desicnations(){
+        return $this->through("departmint")->has("desicnations");
+    }
 }
