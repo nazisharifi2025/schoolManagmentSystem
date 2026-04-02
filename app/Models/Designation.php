@@ -16,4 +16,7 @@ class Designation extends Model
     public function contract(){
         return $this->belongsTo(Contract::class);
     }
+    public function emploee(){
+        return $this->belongsTo(Emploee::class);
+    }
 }
