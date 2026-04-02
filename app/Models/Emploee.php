@@ -21,4 +21,7 @@ class Emploee extends Model
     public function Salarie(){
         return $this->belongsTo(salarie::class);
     }
+    public function Payment(){
+        return $this->belongsTo(payment::class);
+    }
 }
