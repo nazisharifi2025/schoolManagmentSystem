@@ -15,4 +15,8 @@ class Emploee extends Model
         "phone",
         "designation_id"
     ];
+    public function designations(){
+        return $this->hasMany(Designation::class);
+    }
+    
 }
