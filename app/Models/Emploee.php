@@ -18,5 +18,7 @@ class Emploee extends Model
     public function designations(){
         return $this->hasMany(Designation::class);
     }
-    
+    public function Salarie(){
+        return $this->belongsTo(salarie::class);
+    }
 }
