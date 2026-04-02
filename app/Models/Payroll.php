@@ -17,4 +17,7 @@ class Payroll extends Model
     public function payment(){
         return $this->belongsTo(payment::class);
     }
+    public function salarie(){
+        return $this->belongsTo(salarie::class);
+    }
 }
