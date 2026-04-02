@@ -16,4 +16,7 @@ class Contract extends Model
     public function Designation(){
         return $this->hasMany(Designation::class);
     }
+    public function emploee(){
+        return $this->hasMany(Emploee::class);
+    }
 }
