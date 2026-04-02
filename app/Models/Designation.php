@@ -13,4 +13,7 @@ class Designation extends Model
     public function departmint(){
         return $this->belongsTo(departmint::class);
     }
+    public function contract(){
+        return $this->belongsTo(Contract::class);
+    }
 }
