@@ -11,4 +11,7 @@ class Payroll extends Model
         "month",
         "school_id",
     ];
+    public function school(){
+        return $this->hasMany(School::class);
+    } 
 }
