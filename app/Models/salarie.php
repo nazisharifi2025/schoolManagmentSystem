@@ -11,4 +11,7 @@ class salarie extends Model
         "emploee_id",
         "payroll_id",
     ];
+    public function payroll(){
+        return $this->hasMany(Payroll::class);
+    }
 }
