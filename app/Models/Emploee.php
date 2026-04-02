@@ -24,4 +24,7 @@ class Emploee extends Model
     public function Payment(){
         return $this->belongsTo(payment::class);
     }
+    public function contract(){
+        return $this->belongsTo(Contract::class);
+    }
 }
