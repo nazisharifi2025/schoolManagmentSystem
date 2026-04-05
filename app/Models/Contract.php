@@ -14,9 +14,9 @@ class Contract extends Model
         "hire_type"
     ];
     public function Designation(){
-        return $this->hasMany(Designation::class);
+        return $this->belongsTo(Designation::class);
     }
     public function emploee(){
-        return $this->hasMany(Emploee::class);
+        return $this->belongsTo(Emploee::class);
     }
 }
