@@ -12,9 +12,9 @@ class payment extends Model
         "payroll_id",
     ];  
     public function Emploee(){
-        return $this->hasMany(Emploee::class);
+        return $this->belongsTo(Emploee::class);
     }
     public function Payroll(){
-       return $this->hasMany(Payroll::class);
+       return $this->belongsTo(Payroll::class);
     }
 }
