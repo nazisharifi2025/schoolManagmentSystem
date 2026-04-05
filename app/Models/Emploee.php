@@ -16,15 +16,15 @@ class Emploee extends Model
         "designation_id"
     ];
     public function designations(){
-        return $this->hasMany(Designation::class);
+        return $this->belongsTo(Designation::class);
     }
     public function Salarie(){
-        return $this->belongsTo(salarie::class);
+        return $this->hasMany(salarie::class);
     }
     public function Payment(){
-        return $this->belongsTo(payment::class);
+        return $this->hasMany(payment::class);
     }
     public function contract(){
-        return $this->belongsTo(Contract::class);
+        return $this->hasMany(Contract::class);
     }
 }
