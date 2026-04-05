@@ -16,5 +16,8 @@ class departmint extends Model
     public function school(){
         return $this->belongsTo(School::class);
     }
+    public function emploee(){
+        return $this->hasManyThrough(Emploee::class , Designation::class);
+    }
     
 }
