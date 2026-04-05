@@ -14,9 +14,9 @@ class Designation extends Model
         return $this->belongsTo(departmint::class);
     }
     public function contract(){
-        return $this->belongsTo(Contract::class);
+        return $this->hasMany(Contract::class);
     }
     public function emploee(){
-        return $this->belongsTo(Emploee::class);
+        return $this->hasMany(Emploee::class);
     }
 }
