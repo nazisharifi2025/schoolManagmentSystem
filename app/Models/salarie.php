@@ -12,9 +12,9 @@ class salarie extends Model
         "payroll_id",
     ];
     public function payroll(){
-        return $this->hasMany(Payroll::class);
+        return $this->belongsTo(Payroll::class);
     }
     public function emploee(){
-        return $this->hasMany(Emploee::class);
+        return $this->belongsTo(Emploee::class);
     }
 }
