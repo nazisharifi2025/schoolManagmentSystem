@@ -12,12 +12,12 @@ class Payroll extends Model
         "school_id",
     ];
     public function school(){
-        return $this->hasMany(School::class);
+        return $this->belongsTo(School::class);
     } 
     public function payment(){
-        return $this->belongsTo(payment::class);
+        return $this->hasMany(payment::class);
     }
     public function salarie(){
-        return $this->belongsTo(salarie::class);
+        return $this->hasMany(salarie::class);
     }
 }
