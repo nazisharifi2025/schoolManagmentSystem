@@ -7,6 +7,7 @@
         <div class=" w-full col-span-2 bg-gray-50 shadow-[0px_0px_0px_rgba(0,0,0,0.4)] h-48">
             <div class="flex flex-col ga-2">
                 <h1 class="text-3xl font-bold ">Manager</h1>
+                <h1 class="text-4xl font-bold ">Esmatullah Gholami</h1>
             </div>
         </div>
         <div class=" w-full  bg-gray-50 shadow-[0px_0px_0px_rgba(0,0,0,0.8)] h-48"></div>
