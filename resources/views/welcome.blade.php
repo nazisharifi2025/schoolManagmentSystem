@@ -13,8 +13,8 @@
         <!-- Styles -->
         @vite(['resources/css/app.css', 'resources/js/app.js'])
     </head>
-    <body class="antialiased font-sans">
-       <div>
+    <body class="antialiased font-sans ">
+       <div class=" bg-bg">
              <header class="w-full py-4 flex justify-between items-center bg-stone-100 px-6">
                         <div class="flex lg:justify-center lg:col-start-2">
                             <h1>Logo</h1>
@@ -24,6 +24,7 @@
                         @endif
                     </header>
                     <livewire:hero />
+                    <livewire:feature /> 
        </div>
     </body>
 </html>
