@@ -25,6 +25,8 @@
                     </header>
                     <livewire:hero />
                     <livewire:feature /> 
+                    {{-- <livewire:OurTeam /> --}}
+                    <livewire:faq />
        </div>
     </body>
 </html>
