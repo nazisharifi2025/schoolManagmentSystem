@@ -3,6 +3,7 @@
         @foreach ($questions as $q)
         <div class=" p-4 flex items-center border-b border-gray-300">
             <h1 class=" text-4xl font-bold">{{ $q[0] }}</h1>
+            <h1 class=" text-4xl font-bold">{{ $q[1] }}</h1>
         </div>
         @endforeach
   
