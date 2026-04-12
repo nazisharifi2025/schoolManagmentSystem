@@ -13,9 +13,9 @@
         <!-- Styles -->
         @vite(['resources/css/app.css', 'resources/js/app.js'])
     </head>
-    <body class="antialiased font-sans ">
+    <body class="antialiased font-sans  ">
        <div class=" bg-bg">
-             <header class="w-full py-4 flex justify-between items-center fixed top-0 right-0 border-brand backdrop-blur-xl border-b px-6">
+             <header class="w-full py-4 z-50 flex justify-between items-center fixed top-0 right-0 border-brand backdrop-blur-xl border-b px-6">
                         <div class="flex lg:justify-center lg:col-start-2">
                             <h1 class=" text-3xl font-bold font-serif">Logo</h1>
                         </div>
@@ -25,7 +25,7 @@
                     </header>
                     <livewire:hero />
                     <livewire:feature /> 
-                    {{-- <livewire:OurTeam /> --}}
+                    <livewire:team />
                     <livewire:faq />
        </div>
     </body>

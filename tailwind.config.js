@@ -17,7 +17,7 @@ export default {
             },
             colors:{
                 brand: "#09637E",
-                bg: "#F34ED",
+                bg: "#F5F5F5",
                 primary: '#424642'
             }
         },

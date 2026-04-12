@@ -10,9 +10,9 @@
                 <h1 class="text-4xl font-bold ">Esmatullah Ghulami</h1>
                 <p class=" w-10/12">Ustad Sharifi & Bibi Zahra High School" is one of the leading educational institutions in the Houtqol region (Jaghori District, Ghazni Province), dedicated to enhancing knowledge and nurturing the younger generation. By employing experienced teaching staff and maintaining a disciplined environment, this school carries out its educational programs in accordance with the standards of the Ministry of Education.Key Features:</p>
             </div>
-            <img src="images/image.jpg" alt="Manager" class="w-52 h-52 border-8 border-brand object-cover ml-4">
+            <img src="/images/gholami.jpg" alt="Manager" class="w-52 h-52 border-8 border-brand object-cover ml-4">
         </div>
-        <div class=" w-full  bg-gray-50 shadow-md flex-col flex justify-center  ">
+        <div class=" w-full  bg-gray-50 shadow flex-col flex justify-center  ">
             <img src="/images/Hajisharifi1.jpeg" alt="Manager" class=" w-full h-52 object-cover">
             <div class="p-2">
                 <h1 class="text-4xl font-bold ">Ramazan Ali Sharifi</h1>
