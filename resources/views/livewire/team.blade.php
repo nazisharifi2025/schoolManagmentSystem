@@ -1,8 +1,11 @@
 <div class=" w-full flex flex-col gap-5">
-    <div class=" max-w-6xl my-3 mx-auto flex justify-start flex-col items-start">
+    <div class=" max-w-6xl my-t-3 mx-auto px-10 flex justify-start flex-col items-start ">
         <h1 class=" text-4xl font-bold text-brand">Our Team</h1>
+        <p class="w-9/12 text-xl">We work together in close collaboration to turn ideas into reality and create something valuable, high-quality, and long-lasting that can help build a better future, while always staying on the path of progress and improvement.
+
+        </p>
     </div>
-<div class=" max-w-6xl grid grid-cols-3 gap-2 mx-auto my-6">
+<div class=" max-w-6xl grid grid-cols-3 gap-2 mb-6 mx-auto">
     <div class="flex justify-center w-10/12 relative mx-auto items-center border-b-8 border-gray-200 bg-white rounded p-3 gap-4 flex-col">
         <div class=" w-full absolute top-[105px] z-10 right-0 border-2 border-brand/35 "></div>
         <img src="/images/t1.avif" class=" z-30 h-44 w-44 rounded-full " />
