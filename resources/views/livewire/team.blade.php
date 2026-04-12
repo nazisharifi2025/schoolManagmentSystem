@@ -8,7 +8,7 @@
 <div class=" max-w-6xl grid grid-cols-3 gap-2 mb-6 mx-auto">
     <div class="flex justify-center w-10/12 relative mx-auto items-center border-b-8 border-gray-200 bg-white rounded p-3 gap-4 flex-col">
         <div class=" w-full absolute top-[105px] z-10 right-0 border-2 border-brand/35 "></div>
-        <img src="/images/t1.avif" class=" z-30 h-44 w-44 rounded-full " />
+        <img src="/images/t1.avif" class=" z-30 h-44 bg-cover w-44 rounded-full " />
         <div class="text-center">
         <h1 class=" text-3xl font-medium text-brand">Ahmad Sharifi</h1>
         <h2 class=" text-2xl text-gray-400 font-medium">Principal</h2>

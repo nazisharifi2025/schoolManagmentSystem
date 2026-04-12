@@ -27,6 +27,7 @@
                     <livewire:feature /> 
                     <livewire:team />
                     <livewire:faq />
+                    <livewire:footer />
        </div>
     </body>
 </html>
