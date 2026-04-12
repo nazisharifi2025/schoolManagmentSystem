@@ -9,15 +9,15 @@
         <!-- Fonts -->
         <link rel="preconnect" href="https://fonts.bunny.net">
         <link href="https://fonts.bunny.net/css?family=figtree:400,600&display=swap" rel="stylesheet" />
-
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
         <!-- Styles -->
         @vite(['resources/css/app.css', 'resources/js/app.js'])
     </head>
     <body class="antialiased font-sans ">
        <div class=" bg-bg">
-             <header class="w-full py-4 flex justify-between items-center bg-stone-100 px-6">
+             <header class="w-full py-4 flex justify-between items-center fixed top-0 right-0 border-brand backdrop-blur-xl border-b px-6">
                         <div class="flex lg:justify-center lg:col-start-2">
-                            <h1>Logo</h1>
+                            <h1 class=" text-3xl font-bold font-serif">Logo</h1>
                         </div>
                         @if (Route::has('login'))
                             <livewire:welcome.navigation />

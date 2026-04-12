@@ -12,7 +12,15 @@
             </div>
             <img src="images/image.jpg" alt="Manager" class="w-52 h-52 border-8 border-brand object-cover ml-4">
         </div>
-        <div class=" w-full  bg-gray-50 shadow-[0px_0px_0px_rgba(0,0,0,0.8)] h-48"></div>
+        <div class=" w-full  bg-gray-50 shadow-md flex-col flex justify-center  ">
+            <img src="/images/Hajisharifi1.jpeg" alt="Manager" class=" w-full h-52 object-cover">
+            <div class="p-2">
+                <h1 class="text-4xl font-bold ">Ramazan Ali Sharifi</h1>
+                <p class=" ">
+                Professor Sharifi (born 1307 SH) was a religious scholar and teacher from Nawa district. He studied Islamic sciences in Afghanistan and Mashhad, later taught for many years, and in 1343 SH became a member of parliament representing Jaghori. He was known for defending the Persian (Dari) language.
+                </p>
+            </div>
+        </div>
     </div>
     {{-- Nothing in the world is as soft and yielding as water. --}}
 </div>
