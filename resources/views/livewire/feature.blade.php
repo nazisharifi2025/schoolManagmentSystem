@@ -32,7 +32,7 @@
         </div>
 
         <div class=" w-full  bg-white shadow flex-col flex justify-center  ">
-            <img src="/images/Hajisharifi1.jpeg" alt="Manager" class=" w-full h-52 object-cover">
+            <img src="/images/Hajisharifi1.jpeg" alt="Manager" class=" w-full h-56 object-cover">
             <div class="p-2">
                 <h1 class="text-4xl font-bold ">Ramazan Ali Sharifi</h1>
                 <p class=" ">
