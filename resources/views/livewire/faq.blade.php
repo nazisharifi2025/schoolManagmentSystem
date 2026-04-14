@@ -25,7 +25,7 @@
 
             <!-- جواب -->
             @if($q['open'])
-                <div class="my-3 border-l-4 border-brand px-3 h-12 flex items-center text-gray-600">
+                <div class="my-3 border-l-4 border-brand px-3 h-12 flex items-center  text-gray-600">
                     {{ $q['answer'] }}
                 </div>
             @endif

@@ -29,14 +29,7 @@ class Faq extends Component
 ],
     ];
 
-    public function toggle($index)
-    {
-        // بستن بقیه سوال‌ها (اختیاری)
-        // foreach ($this->questions as $i => $q) {
-        //     $this->questions[$i]['open'] = false;
-        // }
-
-        // باز کردن آیتم کلیک شده
+    public function toggle($index){
         $this->questions[$index]['open'] = !$this->questions[$index]['open'];
     }
 
