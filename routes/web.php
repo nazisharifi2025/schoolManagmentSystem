@@ -8,6 +8,7 @@ Route::prefix('dashboard')->group(function(){
     Route::view("cantract" , 'livewire.cantract.index');
     Route::view('department' , 'livewire.dapartment.index');
     Route::view('designation' , 'livewire.designation.index');
+    Route::view('employee' , 'livewire.emploee.index');
 });
 
 Route::view('dashboard', 'dashboard')
