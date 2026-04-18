@@ -10,6 +10,7 @@ Route::prefix('dashboard')->group(function(){
     Route::view('designation' , 'livewire.designation.index');
     Route::view('employee' , 'livewire.emploee.index');
     Route::view('payment' , 'livewire.payment.index');
+    Route::view('payroll' , 'livewire.payroll.index');
 });
 
 Route::view('dashboard', 'dashboard')
