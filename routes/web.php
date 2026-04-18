@@ -11,6 +11,7 @@ Route::prefix('dashboard')->group(function(){
     Route::view('employee' , 'livewire.emploee.index');
     Route::view('payment' , 'livewire.payment.index');
     Route::view('payroll' , 'livewire.payroll.index');
+    Route::view('school' , 'livewire.school.index');
 });
 
 Route::view('dashboard', 'dashboard')
