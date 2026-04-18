@@ -12,14 +12,14 @@ Route::prefix('dashboard')->middleware(['auth', 'verified'])->group(function(){
     Route::view('payment' , 'livewire.payment.index');
     Route::view('payroll' , 'livewire.payroll.index');
     Route::view('school' , 'livewire.school.index');
-    Route::view('dashboard', 'dashboard');
-    Route::view('profile', 'profile');
 });
 
-    // ->middleware(['auth', 'verified'])
-    // ->name('dashboard');
+Route::view('dashboard', 'dashboard')
+    ->middleware(['auth', 'verified'])
+    ->name('dashboard');
 
-    // ->middleware(['auth'])
-    // ->name('profile');
+Route::view('profile', 'profile')
+    ->middleware(['auth'])
+    ->name('profile');
 
 require __DIR__.'/auth.php';
