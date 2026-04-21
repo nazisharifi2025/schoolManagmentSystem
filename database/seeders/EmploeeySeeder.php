@@ -15,7 +15,11 @@ class EmploeeySeeder extends Seeder
     {
         DB::table('emploees')->insert([
             [
-                "firstName"=> "Ali Ahmad"
+                "firstName"=> "Ali Ahmad",
+                "lastName"=> "Ahmadi",
+                "tazkira"=> "091323",
+                "email"=> "AliAhmad@gmail.com",
+                "phone"=> "0798764532"
             ]
         ]);
     }
