@@ -2,13 +2,14 @@
 
 namespace App\Livewire\School;
 
+use App\Models\School;
 use Livewire\Component;
 
 class Index extends Component
 {
-    $School = null;
+    public $School = null;
     public function mount(){
-        $this->School = Schools::all();
+        $this->School = School::all();
     }
     public function render()
     {
