@@ -6,7 +6,9 @@ use Livewire\Component;
 
 class Index extends Component
 {
+    public $emploeey = null ;
     public function render()
+    
     {
         return view('livewire.emploee.index');
     }
