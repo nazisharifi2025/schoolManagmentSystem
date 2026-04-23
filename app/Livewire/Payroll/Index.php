@@ -2,6 +2,7 @@
 
 namespace App\Livewire\Payroll;
 
+use App\Models\Payroll;
 use Livewire\Component;
 
 class Index extends Component
