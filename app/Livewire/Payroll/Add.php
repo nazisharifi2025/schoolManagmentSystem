@@ -11,7 +11,11 @@ class Add extends Component
         $this->payroll = new payroll();
     }
     public function create(Request $request){
-
+        $request->validate([
+             "year"=>$request->year,
+        "month"=> now(),
+        "school_id" $request->school_id,
+        ]);
     }
     public function render()
     {
