@@ -16,6 +16,10 @@ class Add extends Component
             "name"=> "required|string|min:3",
             "whatsapp_link"=> " required|string|min:3"
         ]);
+        $this->school->create([
+            "name"=> $request->name,
+            "whatsapp_link"=> $request->whatsapp_link,
+        ]);
     }
     public function render()
     {
