@@ -13,7 +13,8 @@ class Add extends Component
     }
     public function create(Request $request){
         $request->validate([
-            "name"=> "required|string|min:3"
+            "name"=> "required|string|min:3",
+            "whatsapp_link"=> " required|string|min:3"
         ]);
     }
     public function render()
