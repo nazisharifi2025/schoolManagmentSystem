@@ -11,6 +11,11 @@ class Add extends Component
     public function mount(){
         $this->school = new School();
     }
+    public function create(Request $request){
+        $request->validate([
+            "name"=> "required|string|min:3"
+        ]);
+    }
     public function render()
     {
         return view('livewire.school.add');
