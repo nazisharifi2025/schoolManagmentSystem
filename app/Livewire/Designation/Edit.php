@@ -14,7 +14,7 @@ class Edit extends Component
         $this->id = $id ;
     } 
     public function mount(){
-        $this->designationData = Designation::findOrFail($id);
+        $this->designationData = Designation::findOrFail($this->id);
     }
     public function render()
     {
