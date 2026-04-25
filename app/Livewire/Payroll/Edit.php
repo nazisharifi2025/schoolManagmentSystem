@@ -2,6 +2,8 @@
 
 namespace App\Livewire\Payroll;
 
+use App\Models\Payroll;
+use Illuminate\Http\Request;
 use Livewire\Component;
 
 class Edit extends Component
@@ -12,7 +14,7 @@ class Edit extends Component
         $this->id = $id;
     }
     public function mount(){
-        $this->payroll = payroll::findOrFail($id);
+        $this->payroll = Payroll::findOrFail($this->id);
     }
     public function render()
     {
