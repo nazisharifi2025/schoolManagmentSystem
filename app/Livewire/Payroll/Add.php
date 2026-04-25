@@ -2,19 +2,21 @@
 
 namespace App\Livewire\Payroll;
 
+use App\Models\Payroll;
+use Illuminate\Http\Request;
 use Livewire\Component;
 
 class Add extends Component
 {
     public $payroll;
     public function mount(){
-        $this->payroll = new payroll();
+        $this->payroll = new Payroll();
     }
     public function create(Request $request){
         $request->validate([
-             "year"=>$request->year,
-        "month"=> now(),
-        "school_id" $request->school_id,
+             "year"=>"required|date",
+        "month"=> "required|date",
+        "school_id"=> "required|integer",
         ]);
     }
     public function render()
