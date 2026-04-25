@@ -21,6 +21,15 @@ class Add extends Component
         "phone"=> "nullable|string|max:10",
         "designation_id"=> "required|integer"
         ]);
+        $this->emploee->Create([
+        "firstName"=>$request->firstName,
+        "LastName"=> $request->lastName,
+        "tazkera"=> $request->tazkera,
+        "gender"=> $request->gender,
+        "email"=> $request->email,
+        "phone" => $request->phone,
+        "designation_id" =>$request->designation_id
+        ]);
      }
     public function render()
     {
