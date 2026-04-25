@@ -17,6 +17,10 @@ class Add extends Component
               "name"=> "required|string|min:5",
         "school_id"=> "required|integer"
         ]);
+        $this->department->create([
+              "name"=> $request->name,
+        "school_id"=> $request->school_id
+        ]);
     }
     public function render()
     {
