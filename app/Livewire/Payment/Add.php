@@ -19,6 +19,11 @@ class Add extends Component
         "emploee_id"=> "required|integer",
         "payroll_id"=> "required|integer",
         ]);
+        $this->payment->create([
+            "payment_mount"=> $request->payment_mount,
+        "emploee_id" => $request->emploee_id,
+        "payroll_id"=> $request->payroll_id,
+        ]);
     }
     public function render()
     {
