@@ -6,6 +6,8 @@ use App\Models\Payroll;
 use Illuminate\Http\Request;
 use Livewire\Component;
 
+use function Symfony\Component\Clock\now;
+
 class Add extends Component
 {
     public $payroll;
@@ -17,6 +19,11 @@ class Add extends Component
              "year"=>"required|date",
         "month"=> "required|date",
         "school_id"=> "required|integer",
+        ]);
+        $this->payroll->create([
+            "Year"=> $request->year,
+            "month"=> $request->month,
+            "school_id"=> $request->school_id,
         ]);
     }
     public function render()
