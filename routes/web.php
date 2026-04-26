@@ -47,7 +47,12 @@ Route::middleware(['auth' , 'verified'])->group(function(){
         Route::get('index' , EmploeeIndex::class)->name('index');
         Route::get('edit', EmploeeEdit::class)->name('edit');
     });
-    
+    Route::prefix('payment')->name('payments')->group(function(){
+        Route::get('index' , PaymentIndex::class)->name('index');
+        Route::get('add' , PaymentAdd::class)->name('add');
+        Route::get('edit' , PaymentEdit::class)->name('edit');
+    });
+   
 });
 
 
