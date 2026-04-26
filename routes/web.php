@@ -42,7 +42,12 @@ Route::middleware(['auth' , 'verified'])->group(function(){
         Route::get('add' , CantractAdd::class)->name('add');
         Route::get('edit' , CantractEdit::class)->name('edit');
     });
-  
+    Route::prefix('emploeey')->name('emploeey')->group(function(){
+        Route::get('add' , EmploeeAdd::class)->name('add');
+        Route::get('index' , EmploeeIndex::class)->name('index');
+        Route::get('edit', EmploeeEdit::class)->name('edit');
+    });
+    
 });
 
 
