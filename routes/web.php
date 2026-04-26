@@ -37,7 +37,12 @@ Route::middleware(['auth' , 'verified'])->group(function(){
         Route::get('add' , DapartmentAdd::class)->name('add');
         Route::get('edit' , DapartmentEdit::class)->name('edit');
     });
-   
+    Route::prefix('contract')->name('contract')->group(function(){
+        Route::get('index' , CantractIndex::class)->name('index');
+        Route::get('add' , CantractAdd::class)->name('add');
+        Route::get('edit' , CantractEdit::class)->name('edit');
+    });
+  
 });
 
 
