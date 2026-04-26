@@ -26,7 +26,7 @@
             </a>
         </div>
         <div class=" flex items-center px-3 gap-4">
-            <a href="emploeey">
+            <a href="emploeey.add">
             <i class="fas fa-user text-xl text-white"></i>
             <span class="text-white font-bold">Emploee</span>
             </a>
