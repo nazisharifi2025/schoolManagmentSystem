@@ -32,6 +32,11 @@ Route::middleware(['auth' , 'verified'])->group(function(){
         Route::get('add' , Add::class)->name('add');
         Route::get('edit' , Edit::class);
     });
+    Route::prefix('departmint')->name('departmint')->group(function(){
+        Route::get('index' , DapartmentIndex::class)->name('index');
+        Route::get('add' , DapartmentAdd::class)->name('add');
+        Route::get('edit' , DapartmentEdit::class)->name('edit');
+    });
    
 });
 
