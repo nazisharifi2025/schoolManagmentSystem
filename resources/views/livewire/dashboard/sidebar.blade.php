@@ -20,9 +20,27 @@
             </a>
         </div>
         <div class=" flex items-center px-3 gap-4">
-            <a href="#">
+            <a href="schoole">
             <i class="fas fa-school text-xl text-white"></i>
             <span class="text-white font-bold">school</span>
+            </a>
+        </div>
+        <div class=" flex items-center px-3 gap-4">
+            <a href="emploeey">
+            <i class="fas fa-user text-xl text-white"></i>
+            <span class="text-white font-bold">Emploee</span>
+            </a>
+        </div>
+        <div class=" flex items-center px-3 gap-4">
+            <a href="#">
+            <i class="fas fa-id-badge text-xl text-white"></i>
+            <span class="text-white font-bold">Designation</span>
+            </a>
+        </div>
+        <div class=" flex items-center px-3 gap-4">
+            <a href="#">
+            <i class="fas fa-building text-xl text-white"></i>
+            <span class="text-white font-bold">Department</span>
             </a>
         </div>
     </div>
