@@ -52,7 +52,12 @@ Route::middleware(['auth' , 'verified'])->group(function(){
         Route::get('add' , PaymentAdd::class)->name('add');
         Route::get('edit' , PaymentEdit::class)->name('edit');
     });
-   
+    Route::prefix('payroll')->name('payroll')->group(function(){
+        Route::get('add' , PayrollAdd::class)->name('add');
+        Route::get('index' , PayrollIndex::class)->name('index');
+        Route::get('edit' , PayrollEdit::class)->name('edit');
+    });
+    
 });
 
 
